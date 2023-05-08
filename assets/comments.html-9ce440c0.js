@@ -1,0 +1,1 @@
+import{_ as t,X as a,Y as c,Z as e,$ as s}from"./framework-d8252107.js";const o={},n=e("h1",{id:"评论",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#评论","aria-hidden":"true"},"#"),s(" 评论")],-1),r=[n];function _(d,i){return a(),c("div",null,r)}const l=t(o,[["render",_],["__file","comments.html.vue"]]);export{l as default};
