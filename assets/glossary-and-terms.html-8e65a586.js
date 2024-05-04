@@ -1,1 +1,0 @@
-import{_ as s,X as a,Y as t,Z as e,$ as r}from"./framework-d8252107.js";const o={},c=e("h1",{id:"术语表",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#术语表","aria-hidden":"true"},"#"),r(" 术语表")],-1),n=[c];function _(d,l){return a(),t("div",null,n)}const h=s(o,[["render",_],["__file","glossary-and-terms.html.vue"]]);export{h as default};

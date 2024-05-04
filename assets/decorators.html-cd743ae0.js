@@ -1,1 +1,0 @@
-import{_ as r,X as o,Y as t,Z as e,$ as a}from"./framework-d8252107.js";const c={},s=e("h1",{id:"decorators",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#decorators","aria-hidden":"true"},"#"),a(" Decorators")],-1),d=[s];function n(_,i){return o(),t("div",null,d)}const l=r(c,[["render",n],["__file","decorators.html.vue"]]);export{l as default};

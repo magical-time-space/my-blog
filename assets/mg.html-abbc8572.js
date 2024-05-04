@@ -1,1 +1,0 @@
-import{_ as a,X as t,Y as c,Z as e,$ as r}from"./framework-d8252107.js";const s={},o=e("h1",{id:"魔法app",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#魔法app","aria-hidden":"true"},"#"),r(" 魔法App")],-1),n=[o];function _(d,i){return t(),c("div",null,n)}const l=a(s,[["render",_],["__file","mg.html.vue"]]);export{l as default};

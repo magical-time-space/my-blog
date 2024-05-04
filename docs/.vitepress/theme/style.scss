@@ -1,0 +1,111 @@
+.VPHome {
+
+  // 自定义首页背景图
+  &::before {
+    // 图片来源：https://zhuanlan.zhihu.com/p/54060187
+    // background-image: url(./assets/bg.webp);
+    // background-size: cover;
+    background: black;
+  }
+
+  // 定义遮罩样式
+  // background: radial-gradient(ellipse,
+  //   rgba(var(--bg-gradient-home), 1) 0%,
+  //   rgba(var(--bg-gradient-home), 0) 150%);
+
+}
+
+
+.VPSidebar {
+  padding-left: var(--vp-sidebar-width) !important;
+  width: calc(var(--vp-sidebar-width) - 28p) !important;
+}
+
+.VPContent.has-sidebar {
+  padding-right: calc((100vw - var(--vp-layout-max-width)) / 10) !important;
+  padding-left: var(--vp-sidebar-width) !important;
+}
+
+.VPNavBar.has-sidebar .content {
+  padding-left: var(--vp-sidebar-width) !important;
+}
+
+.VPNavBarTitle.has-sidebar .title {
+  border-bottom-color: none;
+}
+
+.VPDoc .content{
+  padding-right:0 !important;
+  padding-left:0 !important;
+}
+
+.VPDoc:not(.has-sidebar) .container {
+  padding-left:calc(var(--vp-sidebar-width) - 32px) !important;
+  max-width: 100% !important;
+}
+
+.VPDoc:not(.has-sidebar) .content {
+  max-width: 100%!important;
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: 100% !important;
+}
+
+.outline-link,.outline-title{
+  padding-left: 1rem;
+}
+
+.VPNavBar.has-sidebar .title {
+  padding-left: 16px !important;
+  width: calc(var(--vp-sidebar-width) - 32px) !important;
+}
+
+aside.VPSidebar {
+  padding-left: 32px !important;
+  padding-right: 10px !important;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.blog-info-wrapper {
+  margin-left: 0px;
+  margin-right: 16px;
+}
+
+.blog-item{
+  background-image: linear-gradient(145deg, rgba(var(--bg-gradient)), #354c5c8c);
+  border-radius: 1rem;
+  // transition: all 0.5s linear!important;
+  outline: 1px solid transparent;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  &:hover{
+    // background-image: linear-gradient(45deg, rgba(var(--bg-gradient)), #5c53358c, rgba(var(--bg-gradient)));
+    outline: 1px solid black;
+  }
+}
+
+.blog-author img{
+  margin: 50px auto!important;
+  background-color: transparent!important;
+  filter: drop-shadow(4px 4px 6px white) drop-shadow(-4px -4px 6px red) drop-shadow(4px -4px 6px green) drop-shadow(-4px 4px 6px blue);
+  animation: led-bg 1s infinite;
+}
+
+@keyframes led-bg {
+  0%{
+    filter: drop-shadow(4px 4px 6px white) drop-shadow(-4px -4px 6px red) drop-shadow(4px -4px 6px green) drop-shadow(-4px 4px 6px blue);
+  }
+  50%{
+    filter: drop-shadow(4px 4px 20px blue) drop-shadow(-4px -4px 20px green) drop-shadow(4px -4px 20px red) drop-shadow(-4px 4px 20px white);
+  }
+  100%{
+    filter: drop-shadow(4px 4px 6px white) drop-shadow(-4px -4px 6px red) drop-shadow(4px -4px 6px green) drop-shadow(-4px 4px 6px blue);
+  }
+}
