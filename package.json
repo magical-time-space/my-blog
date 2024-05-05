@@ -5,9 +5,9 @@
   "author": "魔樽Cauldron",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev docs --host --open",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "dev": "vitepress dev vdocs --host --open",
+    "build": "vitepress build vdocs",
+    "serve": "vitepress serve vdocs"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
@@ -17,7 +17,7 @@
     "vue": "3.4.21"
   },
   "directories": {
-    "doc": "docs"
+    "doc": "vdocs"
   },
   "devDependencies": {
     "sass": "^1.64.1",
